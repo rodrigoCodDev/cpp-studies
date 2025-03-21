@@ -31,7 +31,7 @@ int main() {
     cout << "Enter the 'b': ";
     cin >> bTerm;
 
-    vector<int> values(10);
+    vector<int> values(size);
 
     for (int i = 0; i < values.size(); i++)
     {
