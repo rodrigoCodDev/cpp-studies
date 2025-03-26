@@ -31,6 +31,11 @@ public:
         this->vehicleType = vehicleType;
     }
 
+    string getOwner() const { return owner; }
+    string getPlate() const { return plate; }
+    string getColor() const { return color; }
+    VehicleType getVehicleType() const { return vehicleType; }
+
     string toString() {
         ostringstream output;
         output << "Vehicle: {\n"
